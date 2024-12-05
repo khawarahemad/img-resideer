@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Picture Cropper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="file" id="fileInput" accept="image/*">
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <div class="image-container">
+                    <canvas id="canvas"></canvas>
+                    <div class="crop-area" id="cropArea">
+                        <div id="resizeHandle"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="cropButton">Crop</button>
+                    <button id="cancelButton">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
