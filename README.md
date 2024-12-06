@@ -18,8 +18,8 @@ A simple client-side tool that allows users to upload an image, crop it using a 
 
 1. **Clone or Download the Repository**:
    ```bash
-   git clone https://github.com/your-username/image-cropper-tool.git
-   cd image-cropper-tool
+   git clone https://github.com/khawarahemad/img-resideer.git
+   cd img-resideer
    ```
 
 2. **Open in a Browser**:
