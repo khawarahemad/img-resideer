@@ -1,7 +1,8 @@
 # Image Cropper Tool
 
 A simple client-side tool that allows users to upload an image, crop it using a 4:4 crop box, and download the cropped version. The crop box is movable and resizable while ensuring it maintains a fixed 4:4 aspect ratio. High-resolution images are automatically scaled down to fit within a 16:9 panel for better usability.
-USE IT by visiting [resideer](https://khawarahemad.github.io/img-resideer).
+
+- USE IT by visiting [resideer](https://khawarahemad.github.io/img-resideer).
 ---
 
 ## Features
